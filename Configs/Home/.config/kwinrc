@@ -33,7 +33,11 @@ desktopchangeosdEnabled=false
 force-decorations-gtk3Enabled=true
 forceblurEnabled=true
 lattewindowcolorsEnabled=true
+macsimizeEnabled=true
 minimizeallEnabled=false
+movewindowtocenterEnabled=true
+opacitymenuEnabled=false
+screenSnapping5Enabled=false
 slidebackEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
@@ -46,6 +50,9 @@ patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole
 [TabBox]
 BorderActivate=9
 LayoutName=preview_reel
+
+[Windows]
+Placement=Centered
 
 [org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
