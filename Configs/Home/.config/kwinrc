@@ -13,7 +13,8 @@ Number=1
 Rows=1
 
 [Effect-Blur]
-BlurStrength=4
+BlurStrength=5
+NoiseStrength=0
 
 [Effect-PresentWindows]
 BorderActivateAll=9
@@ -29,15 +30,20 @@ Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
 blurEnabled=true
+contrastEnabled=true
 desktopchangeosdEnabled=false
 force-decorations-gtk3Enabled=true
 forceblurEnabled=true
-lattewindowcolorsEnabled=true
-macsimizeEnabled=true
-minimizeallEnabled=false
+kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_lightlyshadersEnabled=true
+kwin4_effect_maximize_xrenderEnabled=true
+macsimizeEnabled=false
+minimizeallEnabled=true
 movewindowtocenterEnabled=true
-opacitymenuEnabled=false
-screenSnapping5Enabled=false
+opacitymenuEnabled=true
+screenSnapping5Enabled=true
+sheetEnabled=true
+slideEnabled=false
 slidebackEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
@@ -45,7 +51,7 @@ wobblywindowsEnabled=true
 
 [Script-forceblur]
 blurContent=true
-patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole
+patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 
 [TabBox]
 BorderActivate=9
