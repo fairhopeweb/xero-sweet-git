@@ -10,7 +10,8 @@ cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Installing required Tools"
 echo "#################################"
-sudo pacman -S --needed --noconfirm kvantum-qt5 latte-dock lolcat neofetch yakuake lightlyshaders-git
+sudo pacman -S --needed --noconfirm kvantum latte-dock lolcat neofetch yakuake kdewallpapers
+sudo pacman -R --noconfirm plasma-workspace-wallpapers
 sleep 2
 echo "Installing Sweet Theme"
 echo "#################################"
