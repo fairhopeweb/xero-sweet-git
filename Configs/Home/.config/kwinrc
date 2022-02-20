@@ -13,17 +13,16 @@ Number=1
 Rows=1
 
 [Effect-Blur]
-BlurStrength=5
-NoiseStrength=0
+BlurStrength=4
+NoiseStrength=1
 
 [Effect-PresentWindows]
 BorderActivateAll=9
 
 [Effect-Wobbly]
-Drag=50
-MoveFactor=25
-Stiffness=1
-WobblynessLevel=2
+Drag=85
+Stiffness=10
+WobblynessLevel=1
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
@@ -37,6 +36,8 @@ forceblurEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_lightlyshadersEnabled=true
 kwin4_effect_maximize_xrenderEnabled=true
+kwin4_effect_translucencyEnabled=true
+lattewindowcolorsEnabled=true
 macsimizeEnabled=false
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
@@ -55,7 +56,7 @@ patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 
 [TabBox]
 BorderActivate=9
-LayoutName=preview_reel
+LayoutName=coverswitch
 
 [Windows]
 Placement=Centered
