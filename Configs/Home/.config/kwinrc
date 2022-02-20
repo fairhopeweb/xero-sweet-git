@@ -39,6 +39,7 @@ kwin4_effect_maximize_xrenderEnabled=true
 kwin4_effect_translucencyEnabled=true
 lattewindowcolorsEnabled=true
 macsimizeEnabled=false
+overviewEnabled=true
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
 opacitymenuEnabled=true
