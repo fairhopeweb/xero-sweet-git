@@ -24,6 +24,16 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+# Path to your Snap installation.
+export PATH=$PATH:/snap/bin
+
+##BTRFS Stuff
+alias btrfs-fs='sudo btrfs filesystem df /'
+alias btrfs-ls='sudo btrfs su li / -t'
+
+##Snapper Stuff
+alias snapls='sudo snapper list'
+
 ##Cmatrix thing
 alias matrix='cmatrix -s -C cyan'
 
@@ -100,7 +110,7 @@ alias jctl='journalctl -p 3 -xb'
 alias ssaver='xscreensaver-demo'
 alias reload='cd ~ && source ~/.bashrc'
 alias pingme='ping -c64 github.com'
-alias cls='clear && neofetch | lolcat'
+alias cls='clear && neofetch'
 alias traceme='traceroute github.com'
 
 #hardware info --short
@@ -153,6 +163,17 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
+#hblock (stop tracking with hblock)
+#use unhblock to stop using hblock
+alias unhblock="hblock -S none -D none"
+
+#Package Info
+alias info='sudo pacman -Si '
+alias infox='sudo pacman -Sii '
+
+##Refresh Keys
+alias rkeys='sudo pacman-key --refresh-keys'
+
 #shutdown or reboot
 alias sr="sudo reboot"
 alias ssn="sudo shutdown now"
@@ -184,4 +205,4 @@ ex ()
   fi
 }
 
-clear && neofetch | lolcat
+clear && neofetch
