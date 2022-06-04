@@ -28,22 +28,20 @@ WobblynessLevel=1
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
-autocomposerEnabled=true
+autocomposerEnabled=false
 blurEnabled=true
 contrastEnabled=true
 desktopchangeosdEnabled=false
 force-decorations-gtk3Enabled=true
 forceblurEnabled=true
 kwin4_effect_fadedesktopEnabled=true
-kwin4_effect_lightlyshadersEnabled=true
-kwin4_effect_maximize_xrenderEnabled=true
+kwin4_effect_lightlyshadersEnabled=false
+kwin4_effect_maximize_xrenderEnabled=false
 kwin4_effect_translucencyEnabled=true
 lattewindowcolorsEnabled=true
-macsimizeEnabled=false
 overviewEnabled=true
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
-opacitymenuEnabled=true
 screenSnapping5Enabled=true
 sheetEnabled=true
 slideEnabled=false
