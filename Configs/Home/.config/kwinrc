@@ -42,6 +42,7 @@ lattewindowcolorsEnabled=true
 overviewEnabled=true
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
+screenedgeEnabled=false
 screenSnapping5Enabled=true
 sheetEnabled=true
 slideEnabled=false
