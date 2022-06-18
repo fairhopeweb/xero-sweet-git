@@ -108,7 +108,7 @@ widgetStyle=kvantum
 Theme=BeautyLine
 
 [KDE]
-ColorScheme=BreezeDark
+ColorScheme=Sweet
 LookAndFeelPackage=Sweet
 SingleClick=false
 contrast=10
