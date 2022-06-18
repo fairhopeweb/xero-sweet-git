@@ -8,6 +8,7 @@ ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -97,7 +98,9 @@ DirSelectDialog Size=828,568
 
 [General]
 ColorScheme=Sweet
-Name=Breeze Dark
+ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
+Name=Lightly
+accentColorFromWallpaper=false
 shadeSortColumn=true
 widgetStyle=kvantum
 
@@ -108,7 +111,7 @@ Theme=BeautyLine
 ColorScheme=BreezeDark
 LookAndFeelPackage=Sweet
 SingleClick=false
-contrast=4
+contrast=10
 widgetStyle=kvantum-dark
 
 [KShortcutsDialog Settings]
