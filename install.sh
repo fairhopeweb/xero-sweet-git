@@ -14,7 +14,7 @@ sudo pacman -S --needed --noconfirm kvantum latte-dock lolcat neofetch yakuake k
 sleep 2
 echo "Installing Sweet Theme"
 echo "#################################"
-sudo pacman -S --needed --noconfirm sweet-gtk-theme-dark sweet-kde-git kvantum-theme-sweet-git plasma-theme-sweet beautyline
+sudo pacman -S --needed --noconfirm sweet-gtk-theme-dark sweet-kde-git kvantum-theme-sweet-git plasma-theme-sweet sweet-cursors-theme-git beautyline
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
