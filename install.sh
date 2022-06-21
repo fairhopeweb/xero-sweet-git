@@ -10,11 +10,11 @@ mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Removing old Latte-Dock & Lightly"
 echo "#################################"
-sudo pacman -Rdd --noconfirm latte-dock lightly-git
+sudo pacman -R --noconfirm latte-dock lightly-git
 sleep 2
 echo "Installing required Tools"
 echo "#################################"
-sudo pacman -S --needed --noconfirm kvantum latte-dock-git lolcat neofetch yakuake kde-wallpapers
+sudo pacman -S --needed --noconfirm kvantum latte-dock-git
 sleep 2
 echo "Installing Sweet Theme"
 echo "#################################"
