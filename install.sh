@@ -8,9 +8,12 @@ echo "Creating Backups of ~/.config folder"
 echo "#####################################"
 mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
+echo "Removing old Latte-Dock & Lightly"
+echo "#################################"
+sudo pacman -Rdd --noconfirm latte-dock lightly-git
+sleep 2
 echo "Installing required Tools"
 echo "#################################"
-sudo pacman -R --noconfirm lightly-git latte-dock
 sudo pacman -S --needed --noconfirm kvantum latte-dock-git lolcat neofetch yakuake kde-wallpapers
 sleep 2
 echo "Installing Sweet Theme"
