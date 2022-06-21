@@ -12,9 +12,9 @@ echo "Removing old Latte-Dock & Lightly"
 echo "#################################"
 sudo pacman -R --noconfirm latte-dock lightly-git
 sleep 2
-echo "Installing required Tools"
+echo "Installing New latte-Git version"
 echo "#################################"
-sudo pacman -S --needed --noconfirm kvantum latte-dock-git
+sudo pacman -S --needed --noconfirm latte-dock-git
 sleep 2
 echo "Installing Sweet Theme"
 echo "#################################"
