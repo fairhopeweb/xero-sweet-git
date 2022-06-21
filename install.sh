@@ -10,7 +10,7 @@ mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Installing required Tools"
 echo "#################################"
-sudo pacman -R lightly-git
+sudo pacman -R --noconfirm lightly-git latte-dock
 sudo pacman -S --needed --noconfirm kvantum latte-dock-git lolcat neofetch yakuake kde-wallpapers
 sleep 2
 echo "Installing Sweet Theme"
