@@ -20,7 +20,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/defaultbg/XeroLinux.png
+Image=/usr/share/wallpapers/Xero-Plasma36.jpg
 
 [Containments][20][ConfigDialog]
 DialogHeight=558
@@ -30,7 +30,7 @@ DialogWidth=720
 PreloadWeight=42
 
 [Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/defaultbg/XeroLinux.png
+Image=/usr/share/wallpapers/Xero-Plasma36.jpg
 SlidePaths=/usr/share/wallpapers
 
 [ScreenMapping]
