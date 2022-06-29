@@ -29,6 +29,7 @@ echo "Applying new Rice, hold on..."
 echo "#################################"
 cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. /
+sed -i "s/{.*}/{C2}/g" ~/XeroAscii
 sudo sed -i "s/Current=.*/Current=Shiny-SDDM/" /etc/sddm.conf.d/kde_settings.conf
 sleep 2
 echo "Applying Grub Theme...."
