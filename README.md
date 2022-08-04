@@ -10,18 +10,9 @@
 
 ![XeroSweet](https://i.imgur.com/qRm0ooD.jpg)
 
-# Requirement for *Other* Arch KDE Distros ...
+# Disclosure
 
-First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there.
-
-Open the file `/etc/pacman.conf` and add my repo below anywhere :
-
-```
-[xerolinux_repo]
-SigLevel = Optional TrustAll
-Server = https://xerolinux.github.io/$repo/$arch
-```
-Save the file, and refresh databases via `sudo pacman -Sy` then follow below step...
+> I would like to clarify one very important aspect of ricing. We use custom themes in every one of our rices, and those might not get updated very often, if at all byt their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of our hands. In case that happens, kindly report back, we will check with them for any fixes/updates, if none are available, we will have no choice but to archive affected rice, and hide it, until fixes are applied and themes updated... Sorry for that...
 
 # Installation
 
@@ -38,14 +29,10 @@ Just clone this repository, run terminal inside directory and run installer Scri
 # F.A.Q
 
 > Q: Will this rice work on other distros Like Fedora or Debian based ?<br />
-> A : If it's not **Arch-KDE** or **XeroLinux** then no. Sorry.
+> A : If it's not **XeroLinux** then no. Sorry.
 >
 > Q : I am running *Pre-Customized* **Arch** Distro with *KDE* can I use your rice ?<br />
 > A : Short answer, *might*. Long answer, too many variables, I don't guarantee success.
 >
 > Q : After applying this rice on **XeroLinux** nice ASCII in neofetch gone how to get it back ?<br />
 > A : To get Xero ASCII in neofetch back just unhash line 114 in `config.conf` inside `/.config/neofetch/`
-
-# Disclosure
-
-> Use this at your own Risk ! I won't be held liable if you didn't follow above recommendations.... Always Backup.. If you don't and break your system it's on you !!!!
